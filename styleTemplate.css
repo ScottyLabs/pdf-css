@@ -1,0 +1,55 @@
+:root {
+    /* add variables here */
+    --varName: value;
+    
+}
+
+body {
+    /* styling for the overall page */
+    background: ;
+    font-family: ;
+    margin: ;
+    color: ;
+}
+
+
+h1 { /* replace '1' based on desired header number */
+    /* style headers */
+    background-color: ;
+    color: ;
+    text-align ;
+}
+
+p {
+    /* style all paragraphs */
+    font-size: ;
+}
+
+a {
+    /* style all links */
+    font-color: ;
+    text-decoration: underline;
+}
+
+.class {
+    /* style by class */
+}
+
+.class1, .class2 {
+    /* style multiple classes */
+}
+
+table, th, td {
+    /* style tables */
+}
+
+/* style tables by column:
+    use <colgroup> in html and add class names for each column */
+.first-col {
+    /* style specific column */
+}
+
+footer {
+    /* style footer */
+}
+
