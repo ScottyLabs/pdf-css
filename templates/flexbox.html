@@ -1,0 +1,44 @@
+<!-- reference alongside styleFlexbox.css -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flexbox Template</title>
+        <link rel=stylesheet href="styleFlexbox.css">
+    </head>
+
+    <body>
+        <h1>Flexbox CSS Template</h1>
+
+        <div class="example-1">
+            <h2>Format Example 1</h2>
+            <div class="header">
+                <h3>Header</h3>
+            </div>
+
+            <div class="row">
+                <!-- note CSS formating for corresponding sylying -->
+                <div class="column side" style="background-color: #bbb">Column 1</div>
+                <div class="column middle" style="background-color: #ccc">Column 2</div>
+                <div class="column side" style="background-color: #bbb">Column 3</div>
+            </div>
+
+            <div class="footer">
+                <p>Footer</p>
+            </div>
+        </div>
+
+        <div class="example-2">
+            <h2>Format Example 2</h2>
+            <div class="container">
+                <!-- the 1st box's inline margin overrides margin from stylesheet -->
+                <div class="box" style="margin-left:0">Box 1</div>
+                <div class="box">Box 2</div>
+                <div class="box">Box 3</div>
+                <div class="box">Box 4 has a lot more text so it should be uneven by 
+                    the flexbox helps keep everything aligned & consistent.</div>
+            </div>
+        </div>
+
+    </body>
+</html>

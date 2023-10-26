@@ -1,0 +1,76 @@
+/* reference alongside flexboxes.html 
+    refer to https://www.w3schools.com/css/css_templates.asp for more templates */
+
+:root {
+    --primary: dimgrey;
+    --secondary: darkgrey;
+    --tertiary: lightgrey;
+}
+
+body {
+    background-color: var(--tertiary);
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--primary);
+    font-weight: bold;
+    margin: 50px;
+}
+
+/* Example 1 */
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: var(--secondary);
+    padding: 30px;
+    text-align: center;
+    font-size: medium;
+}
+
+.row {
+    display:-webkit-flex;
+    display: flex;
+}
+
+.column {
+    padding: 10px;
+    height: 300px;
+}
+ 
+/* to have columns with different widths */
+.column.side {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.column.middle {
+    -webkit-flex: 2;
+    -ms-flex: 2;
+    flex: 2;
+}
+
+.footer {
+    background-color: var(--secondary);
+    padding: 10px;
+    text-align: center;
+}
+
+/* Example 2 */
+.container {
+    border: thick dotted var(--primary);
+    padding: 20px;
+    /* flex box display */
+    display: flex;
+    align-items: stretch;
+}
+
+.box {
+    border: thick solid var(--primary);
+    background-color: var(--secondary);
+    margin-left: 10px;
+    width: 30rem;
+    padding: 1rem;
+
+}
+
